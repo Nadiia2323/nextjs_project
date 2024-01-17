@@ -1,42 +1,52 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
-  
-.characterContainer {
-        position: relative;
-        width: 35vh;
-        border: 3px solid black;
-       
-    }
-.characters{
-    display: flex;
-    gap: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-    .character {
-        width: 100%;
-       
-        height: auto;
-       
-    }
 
-    .learn {
-        display: none;
-        position: absolute;
-        z-index: 2;
-        bottom: 0;
-        background-color: rgba(3, 3, 72, 0.539);
-        height: 100%;
-        width: 100%;
-       
-        text-align: center;
-      
-    }
+.characterContainer {
+  position: relative;
+  width: 35vh;
+  border: 3px solid black;
+}
+.characters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.character {
+  width: 100%;
 
-    .characterContainer:hover .learn {
-        display: block;
-    }
+  height: auto;
+}
+
+.learn {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  background-color: rgba(3, 3, 72, 0.539);
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+}
+
+.characterContainer:hover .learn {
+  display: block;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.button {
+  width: 10vh;
+  height: 8vh;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
