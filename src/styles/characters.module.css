@@ -22,21 +22,36 @@
 
   height: auto;
 }
+.learnContainer{
+ 
+  display: flex;
+justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+}
 
 .learn {
   display: none;
   position: absolute;
   z-index: 2;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
-  background-color: rgba(3, 3, 72, 0.539);
+   background-color: rgba(3, 3, 72, 0.539); 
   height: 100%;
   width: 100%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  
 
   text-align: center;
 }
 
-.characterContainer:hover .learn {
-  display: block;
+.characterContainer:hover .learn  {
+  display: flex;
 }
 .buttonsContainer {
   display: flex;

@@ -7,7 +7,7 @@ export default function MyNavBar() {
       <nav className={styles.navbar}>
           <Link className={styles.links} href="/">Homepage</Link>
           <Link className={styles.links}  href="/characters/1">Characters</Link>
-          <Link className={styles.links}  href="/">Episodes</Link>
+          <Link className={styles.links}  href="/characters/episodes">Episodes</Link>
     </nav>
   )
 }

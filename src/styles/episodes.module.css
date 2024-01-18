@@ -1,0 +1,28 @@
+.tableContainer {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.characterImage {
+    width: 50px;
+    /* Adjust as needed for size */
+    height: auto;
+    margin-right: 10px;
+    /* Space between images */
+}
